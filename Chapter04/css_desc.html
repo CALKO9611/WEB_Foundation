@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body em {
+        color: red;
+      } /* body 안 em 요소 */
+      body > h1 {
+        color: blue;
+      } /* body 안 h1 요소 */
+    </style>
+  </head>
+  <body>
+    <h1>This headline is <em>very</em> important</h1>
+  </body>
+</html>
+
+<!-- 
+   선택자  |                       설명
+    s1 s2  | s1 요소에 포함된 s2 요소를 선택한다. (후손 관계)
+   s1 > s2 | s1 요소에 직계 자식 요소인 s2를 선택한다. (자식 관계)
+ -->
