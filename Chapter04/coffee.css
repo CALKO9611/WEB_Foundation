@@ -9,6 +9,10 @@ h1 {
   color: red;
 }
 
-em {
-  color: red;
+p.first {
+  color: green;
+}
+
+p.second {
+  color: blue;
 }
