@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        background-color: green;
+        height: 150px;
+        width: 150px;
+      }
+
+      .container {
+        background-color: yellow;
+        border: 1px solid black;
+      }
+
+      .transformed {
+        backface-visibility: visible;
+        transform-origin: 50% 42%;
+        transform: perspective(500px) rotateY(59deg) rotateX(0deg);
+      }
+      /* 
+      3차원 변환되는 박스이다.
+      backface-visibility는 후면을 보이게 하는 속성이다.
+      transform-origin은 변환 원점을 설정한다.
+      transform은 3차원 변환을 정의한다.
+      perspective()는 원근 변환에서 거리를 설정한다.
+      rotateY()는 Y축을 중심으로 하는 변환이다.
+      rotateX()는 X축을 중심으로 하는 변환이다.
+      */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="transformed"></div>
+    </div>
+  </body>
+</html>
