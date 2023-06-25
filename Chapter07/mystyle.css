@@ -11,3 +11,31 @@ header {
   height: 60px;
   margin: 10px;
 }
+
+nav {
+  margin: 10px;
+}
+
+nav ul {
+  list-style: none; /* 불릿을 표시하지 않는다. */
+  text-align: center; /* 내용물을 중앙 정렬 */
+  border-top: 1px solid red; /* 윗 경계선만 1픽셀 두께, 빨간색으로 그린다. */
+  border-bottom: 1px solid red; /* 아래 경계선만 1픽셀 두께, 빨간색으로 그린다. */
+  padding: 10px 0; /* 상하 패딩은 10픽셀, 좌우 패딩은 0 */
+}
+
+nav ul li {
+  display: inline; /* <li> 요소는 블록 요소이지만 인라인 요소로 변경 */
+  text-transform: uppercase; /* 전부 대문자로 변경 */
+  padding: 0 10px; /* 상하 패딩은 0픽셀, 좌우 패딩은 10픽셀 */
+  letter-spacing: 10px; /* 글자 간격이 10픽셀 */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* 마우스가 위에 떠있으면 밑줄이 그어지게 한다. */
+}
