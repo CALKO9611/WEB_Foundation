@@ -87,3 +87,10 @@ aside#left {
   float: left;
   width: 430px;
 }
+
+aside#right {
+  padding: 0px;
+  margin-left: 10px;
+  width: 200px;
+  float: left; /* 역시 왼쪽에 붙여서 배치한다. */
+}
