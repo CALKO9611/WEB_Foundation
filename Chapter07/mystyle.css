@@ -94,3 +94,11 @@ aside#right {
   width: 200px;
   float: left; /* 역시 왼쪽에 붙여서 배치한다. */
 }
+
+#shopcart {
+  margin-bottom: 20px;
+}
+
+#login {
+  margin-top: 40px;
+}
