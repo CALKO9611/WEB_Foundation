@@ -39,3 +39,42 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline; /* 마우스가 위에 떠있으면 밑줄이 그어지게 한다. */
 }
+
+aside#left {
+  width: 175px;
+  margin-top: 20px;
+  float: left;
+}
+
+#left h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#left ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  list-style: none;
+  text-indent: 15px;
+}
+
+#left ul li {
+  background: #3f3f3f;
+  line-height: 28px;
+  border-bottom: 1px solid #333;
+}
+
+#left ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: block; /* 글자뿐만 아니라 한 줄 전체가 선택된다. */
+}
+
+#left ul li a:hover {
+  background: #d40203;
+}
+
+#left ul li#active {
+  background: #d40203;
+}
