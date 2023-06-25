@@ -78,3 +78,12 @@ aside#left {
 #left ul li#active {
   background: #d40203;
 }
+
+#main {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #464646;
+  overflow: hidden; /* 내용물이 컨테이너를 넘치면 냉정하게 자를 것 */
+  float: left;
+  width: 430px;
+}
