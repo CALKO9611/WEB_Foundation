@@ -1,0 +1,14 @@
+<canvas id="myCanvas" width="300" height="200"></canvas>
+<script>
+  var canvas = document.getElementById("myCanvas");
+  var context = canvas.getContext("2d");
+
+  context.font = "italic 38pt Arial";
+  context.fillText("Hello World", 20, 100);
+</script>
+
+<!-- 
+  font: 텍스트를 그리는데 사용되는 폰트 속성을 정의한다.
+  fillText(text, x, y): 캔버스에 채워진 텍스트를 그린다.
+  strokeText(text, x, y): 캔버스에 텍스트의 외각선만을 그린다.
+ -->
