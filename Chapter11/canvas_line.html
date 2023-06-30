@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="300" height="200"></canvas>
+    <script>
+      var canvas = document.getElementById("myCanvas");
+      var context = canvas.getContext("2d");
+
+      context.beginPath();
+      context.moveTo(0, 0);
+      context.lineTo(100, 100);
+      context.lineTo(150, 50);
+      context.lineTo(200, 100);
+      context.stroke();
+    </script>
+  </body>
+</html>
+
+<!-- 
+  moveTo(x,y)는 직선의 시작점을 정의한다.
+  lineTo(x,y)는 직선의 끝점을 정의한다.
+
+  경로를 형성해서 그릴 때는 마지막에 항상 stroke()을 호출해 주어야 그림이 실제로 그려진다.
+ -->
