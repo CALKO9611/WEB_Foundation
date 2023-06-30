@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="300" height="200"></canvas>
+    <script>
+      var canvas = document.getElementById("myCanvas");
+      var context = canvas.getContext("2d");
+
+      context.beginPath();
+      context.rect(10, 10, 100, 100);
+      context.rect(50, 50, 100, 100);
+      context.stroke();
+    </script>
+  </body>
+</html>
+
+<!-- 
+  사각형을 캔버스에 그리려면 rect() 메서드를 이용하면 된다.
+
+  rect(x, y, w, h)는 (x,y)를 왼쪽 모서리로 하고 가로와 세로가 각각 w, h인 사각형을 그린다.
+ -->
